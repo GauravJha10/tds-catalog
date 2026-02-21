@@ -23,4 +23,5 @@ jobs:
           key: cache-0e2314c
 
       - name: prime-cache-0e2314c
+        id: prime-cache-0e2314c
         run: echo "Cache hit status: ${{ steps.cache-step.outputs.cache-hit }}"
