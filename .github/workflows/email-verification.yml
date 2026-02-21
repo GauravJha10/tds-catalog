@@ -1,0 +1,13 @@
+name: Email Verification Action
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f2001550@ds.study.iitm.ac.in
+        run: echo "Action triggered for email verification"
